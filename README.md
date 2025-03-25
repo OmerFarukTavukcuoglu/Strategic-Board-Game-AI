@@ -83,8 +83,8 @@ The AI engine is built using **advanced decision-making algorithms** to maximize
 - Implements **turn-based gameplay rules**.
 
 ###  Turn Management & Move Counter
-✔ Tracks total moves and **enforces the 50-move rule**.
+- Tracks total moves and **enforces the 50-move rule**.
 
-✔ Ensures **AI moves first**.
+- Ensures **AI moves first**.
 
-✔ Prevents illegal moves.
+- Prevents illegal moves.
