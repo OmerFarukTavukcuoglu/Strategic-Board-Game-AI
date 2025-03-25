@@ -21,7 +21,7 @@ This project implements an AI-driven strategic board game, developed as a term p
 
 - If a player has **multiple pieces**, they must make **two consecutive moves**.
 
-✔ If a player has **only one piece**, they can **only make one move**.
+- If a player has **only one piece**, they can **only make one move**.
 
 ### Capturing System
 - A piece (or group of pieces) is **captured** if:
@@ -45,21 +45,21 @@ This project implements an AI-driven strategic board game, developed as a term p
 ## AI Implementation
 The AI engine is built using **advanced decision-making algorithms** to maximize efficiency and strategic play.
 
-### **1️⃣ Min-Max Algorithm**
+### ** 1- Min-Max Algorithm**
 - Evaluates possible future moves and assigns scores.
 
 - Selects the move that **maximizes advantage** while minimizing the opponent's.
 
 - Can be optimized using **Alpha-Beta pruning**.
 
-### **2️⃣ Q-Learning (Reinforcement Learning)**
+### ** 2- Q-Learning (Reinforcement Learning)**
 - AI **learns from experience**, improving over time.
 
 - Rewards **optimal moves**, penalizes **bad decisions**.
 
 - Makes AI more adaptable.
 
-### **3️⃣ Deep Q-Learning Networks (DQN)**
+### ** 3- Deep Q-Learning Networks (DQN)**
 - Uses **Neural Networks** to predict the best moves.
 
 - Allows for **dynamic, self-learning AI**.
