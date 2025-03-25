@@ -16,8 +16,11 @@ This project implements an **AI-driven strategic board game**, developed as a te
 
 ### 🎲 Move Rules
 ✔ Pieces **can move horizontally and vertically**.
+
 ✔ **No diagonal moves** allowed.
+
 ✔ If a player has **multiple pieces**, they must make **two consecutive moves**.
+
 ✔ If a player has **only one piece**, they can **only make one move**.
 
 ### 🔥 Capturing System
