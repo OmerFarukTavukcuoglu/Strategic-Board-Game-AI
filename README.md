@@ -1,20 +1,20 @@
-# 🏆 AI-Based Strategic Board Game
+# 🎮 AI-Based Strategic Board Game
 
-## 🎮 Project Overview
+## Project Overview
 This project implements an AI-driven strategic board game, developed as a term project using Python and the PyCharm IDE. The game is designed for a **7x7 board**, where an **AI (Player 1) competes against a human player (Player 2)**. The AI is built using **Min-Max, Q-Learning, or Deep Q-Learning Networks** to make strategic moves and defeat the opponent.
 
 ---
 
-## 📜 Game Rules & Mechanics
+## Game Rules & Mechanics
 
-### 🏁 Initial Setup
+### Initial Setup
 - The game board consists of **7 rows × 7 columns**.
 - **Triangle (△) pieces** represent the AI (**Player 1**).
 - **Circle (○) pieces** represent the human player (**Player 2**).
 - Each player starts with **4 pieces** placed in a specific formation.
 - The **AI always makes the first move**.
 
-### 🎲 Move Rules
+### Move Rules
 ✔ Pieces **can move horizontally and vertically**.
 
 ✔ **No diagonal moves** allowed.
@@ -23,13 +23,13 @@ This project implements an AI-driven strategic board game, developed as a term p
 
 ✔ If a player has **only one piece**, they can **only make one move**.
 
-### 🔥 Capturing System
+### Capturing System
 - A piece (or group of pieces) is **captured** if:
   - It is **trapped between an opponent’s piece and the board edge**.
   - It is **sandwiched between two opponent pieces**.
   - Both players' pieces are trapped between opponent pieces, leading to **multiple captures**.
 
-### 🏆 Win Conditions
+### Win Conditions
 - **Draw**:
   - Both players have **no pieces left**.
   - Both players have **only one piece left**.
@@ -42,7 +42,7 @@ This project implements an AI-driven strategic board game, developed as a term p
 
 ---
 
-## 🤖 AI Implementation
+## AI Implementation
 The AI engine is built using **advanced decision-making algorithms** to maximize efficiency and strategic play.
 
 ### **1️⃣ Min-Max Algorithm**
@@ -68,21 +68,21 @@ The AI engine is built using **advanced decision-making algorithms** to maximize
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
-### **🎨 User Interface**
+### User Interface
 ✔ **Supports CLI & GUI** versions.
 
 ✔ Allows players to **input moves, view board state, and track AI decisions**.
 
-### **📌 Move Validation & Capture Detection**
+###  Move Validation & Capture Detection
 ✔ Ensures only **valid moves** are executed.
 
 ✔ **Automatically detects and removes captured pieces**.
 
 ✔ Implements **turn-based gameplay rules**.
 
-### **📊 Turn Management & Move Counter**
+###  Turn Management & Move Counter
 ✔ Tracks total moves and **enforces the 50-move rule**.
 
 ✔ Ensures **AI moves first**.
