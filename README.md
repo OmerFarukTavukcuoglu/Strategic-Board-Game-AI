@@ -15,11 +15,11 @@ This project implements an AI-driven strategic board game, developed as a term p
 - The **AI always makes the first move**.
 
 ### Move Rules
-✔ Pieces **can move horizontally and vertically**.
+- Pieces **can move horizontally and vertically**.
 
-✔ **No diagonal moves** allowed.
+- **No diagonal moves** allowed.
 
-✔ If a player has **multiple pieces**, they must make **two consecutive moves**.
+- If a player has **multiple pieces**, they must make **two consecutive moves**.
 
 ✔ If a player has **only one piece**, they can **only make one move**.
 
@@ -46,41 +46,41 @@ This project implements an AI-driven strategic board game, developed as a term p
 The AI engine is built using **advanced decision-making algorithms** to maximize efficiency and strategic play.
 
 ### **1️⃣ Min-Max Algorithm**
-🔹 Evaluates possible future moves and assigns scores.
+- Evaluates possible future moves and assigns scores.
 
-🔹 Selects the move that **maximizes advantage** while minimizing the opponent's.
+- Selects the move that **maximizes advantage** while minimizing the opponent's.
 
-🔹 Can be optimized using **Alpha-Beta pruning**.
+- Can be optimized using **Alpha-Beta pruning**.
 
 ### **2️⃣ Q-Learning (Reinforcement Learning)**
-🔹 AI **learns from experience**, improving over time.
+- AI **learns from experience**, improving over time.
 
-🔹 Rewards **optimal moves**, penalizes **bad decisions**.
+- Rewards **optimal moves**, penalizes **bad decisions**.
 
-🔹 Makes AI more adaptable.
+- Makes AI more adaptable.
 
 ### **3️⃣ Deep Q-Learning Networks (DQN)**
-🔹 Uses **Neural Networks** to predict the best moves.
+- Uses **Neural Networks** to predict the best moves.
 
-🔹 Allows for **dynamic, self-learning AI**.
+- Allows for **dynamic, self-learning AI**.
 
-🔹 More computationally intensive but highly effective.
+- More computationally intensive but highly effective.
 
 ---
 
 ## Technical Implementation
 
 ### User Interface
-✔ **Supports CLI & GUI** versions.
+- **Supports CLI & GUI** versions.
 
-✔ Allows players to **input moves, view board state, and track AI decisions**.
+- Allows players to **input moves, view board state, and track AI decisions**.
 
 ###  Move Validation & Capture Detection
-✔ Ensures only **valid moves** are executed.
+- Ensures only **valid moves** are executed.
 
-✔ **Automatically detects and removes captured pieces**.
+- **Automatically detects and removes captured pieces**.
 
-✔ Implements **turn-based gameplay rules**.
+- Implements **turn-based gameplay rules**.
 
 ###  Turn Management & Move Counter
 ✔ Tracks total moves and **enforces the 50-move rule**.
